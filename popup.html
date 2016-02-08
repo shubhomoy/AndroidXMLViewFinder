@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Android XML View Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="app_title">Android XML View Finder</div>
+        <div class="main_container">
+            <div class="container">
+                <div class="card-panel">
+                    <font size="3">Declare Java variables from XML view in Android instantly. Just copy-paste your XML file and click 'Generate' to get the Java function.</font>
+                </div>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active">Source XML</div>
+                        <div class="collapsible-body">
+                            <p>
+                                Make sure that your source XML is error free. It'll be better if you name all your view IDs in underscore case.
+                                <div class="input-field s-12">
+                                    <textarea id="source" class="materialize-textarea"></textarea>
+                                    <label for="source">Paste your layout XML file content</label>
+                                    <a class="waves-effect waves-light indigo btn right" id="generate">Generate</a>
+                                </div>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Generated Java function</div>
+                        <div class="collapsible-body">
+                            <p>
+                                <div class="input-field s-12">
+                                    <textarea id="java_function" class="materialize-textarea"></textarea>
+                                    <span id="output"></span>
+                                </div>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <footer class="page-footer indigo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">About</h5>
+                                <p class="grey-text text-lighten-4">I created this small side tool to save myself from wasting 10-15mins in instantiating XML views to Java variables in my Android Projects. Thought of helping others to save time too. Please report bugs so that I can improve this tool and yes, if this tool helps you too, then please don't hesitate to buy me a coffee! :)</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">More</h5>
+                            <p class="grey-text text-lighten-4">
+                                Report a bug or send feedback at<br /><a class="grey-text text-lighten-3" href="#!">admin@pinpost.in</a>
+                            </p>
+                            <ul>
+                              <li><a class="grey-text text-lighten-3" href="#!" id="other_apps">Other apps</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        Bitslate 2015
+                        <a class="grey-text text-lighten-4 right" href="#!" id="author">Shubhomoy</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="materialize.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
+

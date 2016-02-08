@@ -1,0 +1,4 @@
+currPointer = 0
+while currPointer < length(inputString)
+	
+	currPointer++

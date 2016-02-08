@@ -1,0 +1,30 @@
+html, body {
+	overflow: visible; 
+}
+
+.main_container {
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	padding-top: 60px;
+}
+
+.app_title {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: #3f51b5;
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
+	z-index: 999;
+}
+
+.input-field {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.right {
+	float: right;
+}
